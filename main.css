@@ -5,3 +5,79 @@ body{
   width: 1170px;
   margin: 0 auto;
 }
+.container-top{
+  background-color: red;
+}
+.container-midlle{
+  background-color: blue;
+}
+.container_bottom{
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+}
+.container_bottom .img{
+  width: 570px;
+  height: 407px;
+}
+.container_bottom .card-1{
+  margin: 0 30px;
+}
+.container_bottom .card-1 .description-1{
+  width: 216px;
+  position: relative;
+  top: -350px;
+  left: 32px;
+}
+.container_bottom .card-1 .description-1 h1{
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.container_bottom .card-1 .description-1 h2{
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.container_bottom .card-1 .description-1 a{
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+.container_bottom .card-2 .description-2 h1{
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.container_bottom .card-2 .description-2 h2{
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.container_bottom .card-2 .description-2 a{
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.container_bottom .card-2 .description-2{
+  width: 216px;
+  position: relative;
+  top: -350px;
+  left: 300px;
+}
